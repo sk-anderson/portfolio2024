@@ -1,0 +1,12 @@
+#nav-bar{
+    position:fixed;
+    top:0px;
+  }
+  body{
+    display:flex;
+  }
+  @media screen and (min-width:100px){
+    body{
+      color:black;
+    }
+  }

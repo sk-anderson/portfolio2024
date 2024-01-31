@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="title">NFL Super Bowl Halftime Show</h1>
+    <p id="description">Please pick a perfomer</p>
+    <form id="survey-form">
+      <div class="input-element">
+      <label id="name-label"
+      >
+        Name
+      </label>
+    <input placeholder="name" id="name" type="text" required/>
+    </div>
+    
+     <div class="input-element">
+      <label id="email-label"
+      >
+        Email
+      </label>
+    <input placeholder="email"  id="email" type="email" required/>
+    </div>
+    
+     <div class="input-element">
+      <label id="number-label"
+      >
+        Age
+      </label>
+    <input placeholder="age"  id="number" min="15" max="80" type="number" required/>
+    </div>
+    <div class="input-element">
+    <label id="select-label">
+    Who's your favorite artist?
+    </label>
+    <select id="dropdown">
+      <option>Taylor Swift</option>
+      <option>Beyonce</option>
+      <option>Chris Brown</option>
+    </select>
+    </div>
+    <div class="input-element">
+      <label>Have you been to a Super Bowl before?</label>
+      <div>
+      <label><input type="radio" name="Super-Bowl" value="Yes" />Yes</label>
+    </div>
+    <div>
+      <label><input type="radio" name="Super-Bowl" value="No"/>No</label>
+      </div>
+    </div>
+    <div class="input-element">
+      <label>What type of genre music do you like?</label>
+      <div>
+      <label><input type="checkbox" name="music" value="Pop" />Pop</label>
+    </div>
+    <div>
+      <label><input type="checkbox" name="music" value="R&B" />R&B</label>
+      </div>
+      <div>
+      <label><input type="checkbox" name="music" value="Rock" />Rock</label>
+      </div>
+      <div>
+      <label><input type="checkbox" name="music" value="Rap" />Rap</label>
+      </div>
+      </div>
+      <div class="input-element">
+      <label>Additional comments</label>
+    <textarea type="text"></textarea>
+      </div>
+    <button type="submit" id="submit">
+    Submit
+    </button>
+    </form>  
+</body>
+</html>
